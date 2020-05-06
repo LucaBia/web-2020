@@ -19,7 +19,7 @@ class OwnerViewSet(viewsets.ModelViewSet):
                  },
                  'instance': {
                      'retrieve': True,
-                     'destroy': False,
+                     'destroy': True,
                      'update': True,
                      'partial_update': True,
                  }
